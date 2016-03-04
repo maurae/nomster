@@ -37,6 +37,8 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+gem 'will_paginate', '>3.0'
+
 
 
 # Use ActiveModel has_secure_password
