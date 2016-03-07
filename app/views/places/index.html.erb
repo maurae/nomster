@@ -8,5 +8,5 @@
 <% end %>
 
 
-<%= will_paginate @places, renderer: BootstrapPagination::Rails,previous_label: ("Previous"), next_label: ("Next"), inner_window: 0, outer_window: 1 %>
+<%= will_paginate @places, renderer: BootstrapPagination::Rails, previous_label: 'Older', next_label: 'Newer', inner_window: 1, outer_window: 0 %>
 
