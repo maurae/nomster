@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"Ext",
+				"Extra-Light"
+			],
+			[
+				"font",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 443.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/Gemfile",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/layouts/application.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/initializers/simple_form.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/master.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/pagination.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/routes.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/places/index.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/fonts/stylesheet.css",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/fonts.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/application.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/environments/production.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/images/background.png",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/images/.keep",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/application.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/javascripts/application.js",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/db/migrate/20160302233820_create_places.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/controllers/places_controller.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/database.yml",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/places/index.html",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/views/layouts/application.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/views/quotes/index.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/controllers/quotes_controller.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/assets/stylesheets/master.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/views/quotes/about.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/assets/images/me.jpg",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/config/routes.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/models/quote.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/views/quotes/new.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/config/initializers/simple_form.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/Gemfile",
+		"/Users/mauraebaker/Desktop/vagrant/src/splurty/config/environments/production.rb",
+		"/Users/mauraebaker/Documents/index.php",
+		"/Users/mauraebaker/Documents/mauraebymaurae.html",
+		"/Index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"nomster",
+			"03/07",
+			"req",
+			"how I moved my"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"master",
+				"app/assets/stylesheets/master.css.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"simple",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"fonts.css",
+				"app/assets/stylesheets/fonts.css.scss"
+			],
+			[
+				"stylesheet.css",
+				"app/assets/fonts/stylesheet.css"
+			],
+			[
+				"applic",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"production.rb",
+				"config/environments/production.rb"
+			],
+			[
+				"",
+				"app/controllers/quotes_controller.rb"
+			],
+			[
+				"simpl",
+				"config/initializers/simple_form.rb"
+			],
+			[
+				"gemi",
+				"Gemfile"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true
+}
