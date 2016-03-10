@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"Hel",
+				"HelveticaNeue-Light"
+			],
+			[
 				"font-st",
 				"font-style"
 			],
@@ -19,6 +23,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/places/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/places_controller.rb",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/migrate/20160310003644_alter_places_add_user_id_column.rb",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/place.rb",
+			"settings":
+			{
+				"buffer_size": 55,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -48,23 +108,24 @@
 	},
 	"file_history":
 	[
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/Gemfile",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/layouts/application.html.erb",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/initializers/simple_form.rb",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/master.css.scss",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/pagination.css.scss",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/routes.rb",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/places/index.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/master.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/controllers/places_controller.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/environments/development.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/environments/production.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/layouts/application.html.erb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/pagination.css.scss",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/Gemfile",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/initializers/simple_form.rb",
+		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/routes.rb",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/fonts/stylesheet.css",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/fonts.css.scss",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/application.rb",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/environments/production.rb",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/images/background.png",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/images/.keep",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/stylesheets/application.scss",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/assets/javascripts/application.js",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/db/migrate/20160302233820_create_places.rb",
-		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/controllers/places_controller.rb",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/config/database.yml",
 		"/Users/mauraebaker/Desktop/vagrant/src/nomster/app/views/places/index.html",
 		"/Users/mauraebaker/Desktop/vagrant/src/splurty/app/views/layouts/application.html.erb",
@@ -99,6 +160,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fault",
 			"nomster",
 			"03/07",
 			"req",
@@ -120,8 +182,194 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1049,
+								1049
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/places/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 1915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1842,
+								1842
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 319.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/places_controller.rb",
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "db/migrate/20160310003644_alter_places_add_user_id_column.rb",
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/models/place.rb",
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
