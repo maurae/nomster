@@ -42,7 +42,7 @@ class PlacesController < ApplicationController
 	def destroy
 	  @place = Place.find(params[:id])
 	  if @place.user != current_user
-	    return render :test => 'Not Allowed', :status => forbidden
+	    return render :text => 'Not Allowed', :status => forbidden
 	  end
 
 	  @place.destroy
@@ -54,4 +54,5 @@ class PlacesController < ApplicationController
 	def place_params
 		params.require(:place).permit(:name, :address, :description)
 	end
+end
 
