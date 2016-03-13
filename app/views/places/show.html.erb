@@ -4,7 +4,7 @@
   <br/><br/>
   <p><%= @place.description %></p>
 
-
+<% if @place.latitude.present? && @place.longitude.present? %>
 
     <script>
 
@@ -29,6 +29,8 @@
 
 <div id="map"></div>
 
+<br />
+
   
   <div class="pull-right">
     <% if current_user && current_user == @place.user %>
@@ -37,3 +39,5 @@
     <% end %>
   </div>
 </div>
+
+<% end %>
