@@ -38,9 +38,9 @@
   
   <div class="pull-right">
     <% if current_user && current_user == @place.user %>
-      <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-primary' %>
+      <%= link_to 'Edit', edit_place_path(@place), class: 'btn btn-info' %>
      
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Add a Photo</button>
+      
     <% end %>
   </div>
 </div>
@@ -51,6 +51,9 @@
 </div>
 <div class="booyah-box col-xs-10 col-xs-offset-1">
   <h1>Photos</h1>
+  <div class="pull-right">
+      <button type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-sm">Add a Photo</button>
+  </div>
   <br />
   <% @place.photos.each do |photo| %>
     <div class="col-xs-12 col-sm-4">
