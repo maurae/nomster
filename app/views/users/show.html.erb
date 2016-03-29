@@ -15,7 +15,6 @@
 <div class="clear"></div>
 <h2 class="text-center">My Places</h2>
 <% @user.places.each do |place| %>
-<% @places.each do |place| %>
   <div class="booyah-box col-xs-10 col-xs-offset-1" >
     <h1><%= link_to place.name, place_path(place) %></h1><br />
     <i><%= place.address %></i><br /><br />
@@ -28,17 +27,18 @@
 
 
    
-<% if place.comments.present? %>   
-    <div class="col-xs-10">
+    <% if place.comments.present? %>   
+      <div class="col-xs-10">
         <blockquote>
-        <% if place.comments.last.humanized_rating.present? %>
-          <b><%= place.comments.last.humanized_rating %></b> -
+          <% if place.comments.last.humanized_rating.present? %>
+            <b><%= place.comments.last.humanized_rating %></b> -
           <% end %>
           <h3><%= place.comments.last.message %></h3>    
          <% end %>
-      </blockquote>
-    </div>
-  </div>
+        </blockquote>
+      </div>
+    <% end %>
+  </div>  
 <% end %>
  
 
