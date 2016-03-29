@@ -1,5 +1,5 @@
-<div class="booyah-box col-xs-12">
-<!--Twitter Bootstrap Javascript Documentation Slider-->
+
+<!--Twitter Bootstrap 'Carousel' Javascript Documentation Slider-->
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -7,6 +7,8 @@
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+   
   </ol>
 
   <!-- Wrapper for slides -->
@@ -14,28 +16,28 @@
     <div class="item active">
       <%= image_tag 'green.jpg'%>
       <div class="carousel-caption">
-        Find the best plant-based food       </div>
+        Find the best plant-based food       
       </div>
     </div>
     <div class="item">
-      <%= image_tag 'table3.jpg' %>
+      <%= image_tag 'table3.jpg', class:'img-responsive' %>
       <div class="carousel-caption">
         Share your reviews
       </div>
     </div>
   <div class="item">
-    <%= image_tag 'bagel.jpg' %>
+    <%= image_tag 'bagel.jpg', class:'img-responsive' %>
       <div class="carousel-caption">
        Best vegan spots in your town
       </div>
   </div>
   <div class="item">
-    <%= image_tag 'salad.jpg' %>
+    <%= image_tag 'salad.jpg', class:'img-responsive' %>
       <div class="carousel-caption">
        Plant-Based reviews
       </div>
   </div>
-</div>
+
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
