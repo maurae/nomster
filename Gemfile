@@ -42,6 +42,7 @@ gem 'geocoder'
 gem 'figaro', ">= 1.0.0"
 gem 'fog', '~> 1.3.1'
 gem 'carrierwave'
+gem 'mini_magick', '~> 4.3.1'
 
 gem 'will_paginate', '~> 3.1'
 gem 'will_paginate-bootstrap', '~>1.0.1'
